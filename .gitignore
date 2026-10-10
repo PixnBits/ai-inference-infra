@@ -1,0 +1,22 @@
+# Results, traces, and large artefacts
+**/results/*
+!**/results/.gitkeep
+*.nsys
+*.ncu-rep
+*.sqlite
+*.json
+!**/results/*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
